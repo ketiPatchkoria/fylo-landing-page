@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+html{
+    font-size:62.5%;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #07043B;
+}
+body {
+    display:flex;
+    justify-content: center;
+}
+p {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+}
+section {
+    text-align: center;
+}
+.container {
+    width:100%;
+    max-width:37.5rem;
+    padding:2.8rem;
+}
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    height:2.4rem;
+    width:auto;
+}
+header div{
+    display:flex;
+    gap:2.4rem;
+}
+.img-1 {
+    width:30.4rem;
+    height:22.5rem;
+}
+h1 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: #07043B;
+}
+.sect-1 input {
+    width:30.4rem;
+    height:4rem;
+    border: 0.0625rem solid #07043B;
+    box-shadow: .0.2px 0.3px 0.6px rgba(0, 0, 0, 0.15925);
+    border-radius: 0.3125rem;
+}
+input::placeholder{
+    opacity:0.5;
+}
+.sect-1 button {
+    width:30.4rem;
+    height:4rem;
+    background-color: #2F65F8;
+    box-shadow: 0.2rem 0.3rem 0.6rem rgba(0, 0, 0, 0.015925);
+    border-radius: 0.3125rem;
+    color: #FFFFFF;
+    border:none;
+}
+.sect-2 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+}
+.img-2 {
+    width:32rem;
+    height:24.1rem;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+.sect-2 p {
+    color:#615F7E;
+}
+.how-fylo-works-div {
+    color:#3DA08F;
+    font-size:1.2rem;
+    line-height:1.6rem;
+    display:flex;
+    flex-direction: column;
+    gap:0.6rem;
+    width:13rem;
+}
+.how-fylo-works-div :first-child {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:0.5rem;
+}
+
+.line {
+    width:inherit;
+    height:0.1rem;
+    background-color: #3DA08F;
+}
+.comment-div {
+    width:28rem;
+    height:17rem;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.0458843);
+    border-radius: 0.393258rem;
+    padding-left:2.5rem;
+    padding-right:1.3rem;
+    text-align: left; 
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.icon-quote {
+    width:1.4rem;
+    height:1.4rem;
+}
+.comment-div >p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.0384615rem;
+}
+.author-div {
+    display:flex;
+    align-items: center;
+    gap:0.8rem;
+}
+.avatar {
+    width:2.4rem;
+    height:2.4rem;
+    border-radius: 50%;
+}
+.author-div p:first-child {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    letter-spacing: 0.045rem;
+    font-weight: 700;
+}
+.author-div p:last-child {
+    font-size: 0.6rem;
+    line-height: 1.2rem;
+    letter-spacing: 0.03rem;
+}
+
+.sect-3 {
+    width:100%;
+    height:34.5rem;
+    background-color: #575988;
+    color: #FFFFFF;
+    padding:5.4rem 4rem 0 4rem;
+}
+h3 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+
+.sect-3 input {
+    width:24rem;
+    height:3.2rem;
+    box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+    border-radius: 1.47059px;
+}
+.sect-3 button {
+    width:24rem;
+    height:3.2rem;
+    background-color: #2F65F8;
+    box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+    border-radius: 1.47059px;
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    border:none;
+}
+
+footer {
+    width:100%;
+    background-color: #07043B;
+    color:#FFFFFF;
+    padding: 6.5rem 3.9rem 4rem 3.9rem;
+}
+
+footer > div {
+    display:flex;
+    flex-direction: column;
+    gap:3.2rem;
+}
+.footer-contact {
+    display:flex;
+    flex-direction: column;
+    gap:1.6rem;
+}
+.footer-contact img {
+    width:0.9rem;
+    height:0.9rem;
+}
+.footer-contact div {
+    display:flex;
+    align-items: center;
+    gap:1.9rem;
+}
+.footer-info {
+    display:flex;
+    flex-direction: column;
+    gap:1.6rem;
+}
+.footer-icons {
+    display:flex;
+    justify-content: center;
+    gap:1.5rem;
+}
+footer .icon {
+    width:2.8rem;
+    height:2.8rem;
+    fill:white;
+    border:1px solid white;
+    border-radius: 50%;
+    padding:0.5rem;
+}
+
+/* ...margins... */
+.sect-1 {
+    margin-top:10.3rem;
+    margin-bottom:18.3rem;
+}
+h1 {
+    margin-top:4rem;
+    margin-bottom:2.4rem;
+}
+.sect-1 input {
+    margin-top:3.2rem;
+    margin-bottom:1.6rem;
+}
+h2 {
+    margin-top:8.7rem;
+    margin-bottom:2.4rem;
+}
+.sect-2 > div > p   {
+    margin-bottom:1.6rem;
+}
+.how-fylo-works-div {
+    margin-top:3.6rem;
+    margin-bottom:4rem;
+}
+.sect-3 {
+    margin-top: 8.1rem;
+}
+h3 {
+    margin-bottom: 1.6rem;
+}
+.sect-3 input {
+    margin-top:2.4rem;
+    margin-bottom:0.8rem;
+}
+footer .logo {
+    margin-bottom:3.2rem;
+}
+
+@media screen and (min-width:1000px) {
+    p {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+    section {
+        text-align: left;
+    }
+    .container {
+        width:100%;
+        max-width:1440px;
+        padding:0;
+        padding-top:5rem;
+    }
+    header, .sect-1, .sect-2, .sect-3 {
+        padding:0;
+        padding-left:8rem;
+        padding-right:8rem;
+    }
+    .logo {
+        height:4.9rem;
+        width:auto;
+    }
+    header div {
+        gap:5.7rem;
+    }
+    .sect-1 {
+        display:flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-top:10.1rem;
+        margin-bottom:16rem;
+        width:100%;
+    }
+    .img-1 {
+        width:50%;
+        height:100%;
+        max-width:64rem;
+        max-height:47.4rem;
+    }
+    .sect-1 > div {
+        width:100%;
+        max-width:62.7rem;
+    }
+    h1 {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+    .sect-1-input-button {
+        display:flex;
+        align-items: center;
+        height:4.5rem;
+        gap:1.6rem;
+        margin-top:2.5rem;
+    }
+    .sect-1 input {
+        width: 100%;
+        max-width:32rem;
+        height:inherit;
+        margin:0;
+    }
+    .sect-1 button {
+        width: 100%;
+        max-width:20rem;
+        height:inherit;
+    }
+    .sect-2 {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        background-image: url(images/bg-curve-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: 
+    }
+    .img-2 {
+        width:50%;
+        max-width:54.2rem;
+        height:100%;
+        max-height:40.9rem;
+    }
+    h2 {
+        font-size: 4rem;
+        line-height: 4.7rem;
+    }
+    .sect-2 p{
+        color:#07043B;
+    }
+    .how-fylo-works-div {
+        width:16.6rem;
+        font-size: 1.6rem;
+    }
+    .comment-div {
+        width:35.6rem;
+        height:21.5rem;
+        box-shadow: 0px 0px 10px 5px rgba(56, 56, 56, 0.0458843);
+        border-radius: 0.5rem;
+    }
+    .icon-quote {
+        width:1.8rem;
+        height:1.8rem;
+    }
+    .comment-div >p {
+        font-size: 1.3rem;
+        line-height: 2.3rem;
+        letter-spacing: 0.05rem;
+    }
+    .avatar {
+        width:3.2rem;
+        height:3.2rem;
+    }
+    .author-div p:first-child {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.055rem;
+    }
+    .author-div p:last-child {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.04rem;
+    }
+    .sect-3 {
+        width:100%;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .sect-3 >:first-child {
+        width:100%;
+        max-width:53.3rem;
+    }
+    .sect-3 >:last-child {
+        width:100%;
+        max-width:48rem;
+    }
+
+    h3 {
+        font-size: 3.2rem;
+        line-height: 4.8rem;
+        margin-bottom:1.7rem;
+    }
+    .sect-3 input {
+        margin-top:0;
+        margin-bottom:1.6rem;
+        width:inherit;
+        height:4.8rem;
+    }
+    .sect-3 button {
+        width:20rem;
+        height:4.8rem;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+    }
+    footer {
+        display:flex;
+        flex-direction: column;
+        padding: 9rem 16rem 8rem 8rem;
+        
+    }
+    footer .logo {
+        width:13.5rem;
+        height:3.9rem;
+        margin-bottom: 3.7rem;
+    }
+    footer > div {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer-contact {
+        width:22rem;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+    .footer-contact img {
+        width:1.8rem;
+        height:1.8rem;
+    }
+    .footer-info {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap:12rem;
+    }
+}
+
+/* ...on hover... */
+header p:hover {
+    cursor: pointer;
+}
+.how-fylo-works-div:hover {
+    cursor: pointer;
+    color: #71DFCC;
+}
+.how-fylo-works-div:hover .line{
+    background-color: #71DFCC;
+}
+.sect-1 button:hover, 
+.sect-3 button:hover {
+    cursor: pointer;
+    background-color: #6C9BFF;
+}
+.footer-info p:hover {
+    cursor: pointer;
+    color:#6C9BFF;
+}
+footer .icon:hover {
+    cursor: pointer;
+    fill:#6C9BFF;
+    border-color: #6C9BFF;
+}
